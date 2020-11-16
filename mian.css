@@ -1,0 +1,211 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,html{
+  font-family: sans-serif;
+  line-height: 1.67;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 1rem;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+li{
+  list-style: none;
+}
+.btn{
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border: solid 1px deeppink;
+  border-radius: 50px;
+  outline: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: all 1s linear;
+  margin-bottom: 1.4rem;
+
+}
+
+.btn-light{
+  background: #fff;
+  color: #333;
+}
+
+.btn-light:hover{
+  background:  hsl(322, 100%, 66%);
+  color: #fff;
+  border: none;
+}
+
+.btn-pink{
+  background:  hsl(322, 100%, 66%) ;
+  color: #fff;
+}
+
+.btn-pink:hover{
+  background: hsl(207, 100%, 98%);
+  color: #333;
+}
+
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+
+#navbar .logo .image-text{
+  display: flex;
+  font-style: 1.4rem;
+}
+
+.head-content{
+  padding: 2rem;
+
+}
+
+.head-content .content-sec{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 4rem;
+
+}
+
+.content-sec h2{
+  margin-bottom: 1rem;
+}
+
+.head-content p{
+  margin-bottom: 2.3rem;
+  padding: 0 1.3rem;
+
+}
+
+
+.content-diagram{
+  padding: 2rem;
+}
+
+.content-diagram .image{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.content-diagram .box-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: start;
+  margin-top: 2rem;
+  padding:0 1rem;
+
+}
+
+
+.content-diagram .box{
+  display: flex;
+  flex-flow: column;
+  font-size: 1.3rem;
+}
+
+.content-diagram .box .img{
+  width: 16%;
+}
+
+.content-diagram .box h3{
+  font-size: 2rem;
+
+}
+.content-diagram .box p{
+  padding: 0;
+}
+
+section{
+  display: grid;
+  grid-template-areas: 'text svg';
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1.3rem;
+  padding:0 2rem;
+  margin: 0 1.3rem;
+}
+
+.grid-box.text{
+  grid-area: text;
+  padding: 0 1.3rem;
+}
+.grid-box.svg{
+  grid-area: svg;
+
+}
+
+section.b{
+  grid-template-areas: 'svg text';
+  margin-top: 3rem;
+}
+
+#main-sec .heading{
+  margin-top: 4rem;
+}
+
+#main-sec .heading div{
+  margin: 0 auto;
+  text-align: center;
+}
+.heading div .btn{
+  margin-top: 2rem;
+}
+/* #footer{
+  position: relative;
+}
+
+#footer::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('/images/bg-footer-top-desktop.svg') no-repeat center center/cover;
+} */
+
+.footboxes{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 1.6rem;
+  padding: 0.8rem 1.rem;
+}
+
+.footbox  .image-text{
+  display: flex;
+  font-style: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+.footbox p{
+  margin-bottom: 1.7rem;
+}
+
+
+.footbox .image-text img{
+  width: 10%;
+}
+
+.footboxes .icons i{
+  margin: 0 1rem 0 0;
+
+}
